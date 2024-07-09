@@ -1,7 +1,6 @@
 import * as opentelemetry from "@opentelemetry/sdk-node";
 import { ConsoleSpanExporter } from "@opentelemetry/sdk-trace-node";
 import { HttpInstrumentation } from "@opentelemetry/instrumentation-http";
-import { Resource } from "@opentelemetry/resources";
 import { diag, DiagConsoleLogger, DiagLogLevel } from "@opentelemetry/api";
 import moduleModule from "module";
 
